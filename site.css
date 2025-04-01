@@ -1,0 +1,26 @@
+.menu2 { /*Menu no topo da página*/
+    margin: 0px; /*Espaço entre caixa e marguem da página*/
+    padding: 14px; /*Espaçamento entre o conteudo e borda*/
+    background-color: #468749; /*Cor da caixa*/
+    text-indent: 40px; /*Recuo da linha*/
+    text-align: center; /*Alinha o texto no centro*/
+}
+
+  
+a { /*Os links no menu*/
+    font-size: 125%; /*Tamanho da fonte*/
+    font-family: 'Times New Roman', Times, serif; /*Fonte das letras*/
+    color: white; /*Cor do texto*/
+    padding: 14px 14px; /*Espaçamento entre o conteudo e borda*/
+    text-decoration: none; /*Remove o sublinhado de links*/
+}
+
+  
+a:hover:not(#menu) { /*Ativa quando passa o mouse por cima dos links no menu*/
+    background-color: #2c612f; /*Cor da caixa*/
+}
+
+  
+#menu { /*Os links no menu*/
+    background-color: #04AA6D; /*Cor da caixa*/
+}
