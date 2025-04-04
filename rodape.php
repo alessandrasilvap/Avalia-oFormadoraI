@@ -2,7 +2,7 @@
         <div class="footer-container">
             <div>
                 <h3 class="integrantes">Integrantes</h3>
-                <ul class="lista">
+                <ul type="none" class="lista">
                     <li class="nome">Alessandra Cristina da Silva Pereira</li>
                     <li class="nome">Aluno de Análise e Desenvolvimento de Sistemas de 2024.2</li>
                 </ul>
