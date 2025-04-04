@@ -5,11 +5,11 @@
             <input type="hidden" name="action" value="ex3">
             <h4>Valor da Densidade:</h4>
             <strong><p>Massa:</p></strong>
-            <input type="number" size="50">
+            <input type="number" size="50" name="massa">
             <br>
             <br>
             <strong><p>Volume:</p></strong>
-            <input type="number" size="50">
+            <input type="number" size="50" name="volume">
             <br>
             <br>
             <br>
