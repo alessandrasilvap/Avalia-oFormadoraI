@@ -16,9 +16,11 @@
             <input type="number" size="50" name="repeticao">
             <br>
             <br>
+            <iframe name="resultadoFrame">
+            </iframe>
             <br>
-            <button type="submit" class="botao1">ENVIAR</button>
-            <button type="button" class="botao2">VOLTAR</button>
+            <button type="submit" class="botao1" value="enviar">ENVIAR</button>
+            <button type="button" class="botao2" value="voltar">VOLTAR</button>
         </fieldset>
     </form>
 
