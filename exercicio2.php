@@ -1,6 +1,6 @@
 <?php include 'cabecalho.php'?>
 
-    <form action="processa.php" method="post" name="form" target="resultadoFrame">
+    <form action="processa.php" method="post" name="form">
         <fieldset id="caixa">
             <input type="hidden" name="action" value="ex2"
             <h4>Formulário de Autenticação:</h4>
@@ -12,8 +12,6 @@
             <input type="password" size="50" name="senha" minlength = "8" maxlength ="14" required>
             <br>
             <br>
-            <iframe name="resultadoFrame">
-            </iframe>
             <br>
             <button type="submit" class="botao1" value="enviar">ENVIAR</button>
             <button type="button" class="botao2" value="voltar">VOLTAR</button>
