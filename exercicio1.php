@@ -1,6 +1,6 @@
 <?php include 'cabecalho.php' ?>
 
-    <form action="processa.php" method="post" name="form" target="resultadoFrame">
+    <form action="processa.php" method="post" name="form">
         <fieldset id="caixa">
             <input type="hidden" name="action" value="ex1">
             <h4>Formulário de Repetição:</h4>
@@ -16,8 +16,6 @@
             <input type="number" size="50" name="repeticao">
             <br>
             <br>
-            <iframe name="resultadoFrame">
-            </iframe>
             <br>
             <button type="submit" class="botao1" value="enviar">ENVIAR</button>
             <button type="button" class="botao2" value="voltar">VOLTAR</button>
