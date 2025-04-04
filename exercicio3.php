@@ -1,7 +1,8 @@
 <?php include 'cabecalho.php'?>
 
-    <form action="">
+    <form action="processa.php" method="post" name="form">
         <fieldset id="caixa">
+            <input type="hidden" name="action" value="ex3">
             <h4>Valor da Densidade:</h4>
             <strong><p>Massa:</p></strong>
             <input type="number" size="50">
