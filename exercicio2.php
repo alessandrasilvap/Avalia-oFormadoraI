@@ -19,7 +19,5 @@
             <button type="button" class="botao2" value="voltar">VOLTAR</button>
         </fieldset>
     </form>
-</body>
-</html>
 
 <?php include 'rodape.php' ?>
