@@ -1,0 +1,74 @@
+body {
+    background-color: #ff922d; /*Cor do fundo*/
+}
+
+form { /*Formulário todo*/
+    width: 45%; /*Espaçamento entre o conteúdo e borda*/
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Arial", "Noto Sans", "Sans-serif"; /*Fonte das letras*/
+    background-color: white; /*Cor da caixa do formulário*/
+}
+
+h1 {
+    text-align: center; /*Alinhamento do título no centro*/
+    color: #ff922d; /*Cor do título*/
+}
+
+h4 {
+    text-align: center; /*Alinhamento do subtítulo no centro*/
+    color: #1e57a4; /*Cor do subtítulo*/
+}
+
+h2 {
+    margin-left: 2%; /*Move os 'títulos' para a esquerda*/
+    margin-top: 0; /*Seria para mover para baixo*/
+}
+
+label, p, h3 {
+    margin-left: 5%; /*Move as legendas dos input para a esquerda*/
+    margin-top: 0; /*Seria para mover para baixo*/
+}
+
+label {
+    font-weight: bold; /*Deixa as palavras em negrito*/
+}
+
+#datatermi { /*ID do label de Data de Termino*/
+    margin: 29%; /*Move para a esquerda*/
+}
+
+#datatermina { /*ID do input de Data de Termino*/
+    margin-left: 27%; /*Move para a esquerda*/
+}
+
+input, select, textarea { /*Formatação dos campos*/
+    border-radius: 1em; /*Bordas arredondadas*/
+    padding: 5px; /*Espaçamento entre o conteúdo e borda*/
+    margin-left: 5%; /*Espaço entre caixa e margem da página*/
+    height: 6%; /*Altura da caixa*/
+}
+
+#enviar:hover, #limpar:hover { /*Ativa borda e sombra ao passar o mouse*/
+    border: 1px solid blue; /*Especifica o tipo e a espessura*/
+    box-shadow: 1px 1px 2px silver;
+}
+
+#enviar, #limpar { /*Posição dos botões*/
+    margin-top: 30px; /*Mover para baixo*/
+    width: 265px; /*Largura*/
+    height: 10%; /*Altura*/
+    margin-left: 33%; /*Move ambos os button 40px para a esquerda*/
+    background-color: #1e57a4; /*Cor da caixa*/
+    color: white; /*Cor das letras*/
+}
+
+textarea {
+    border: 20%; /*Bordas arredondadas*/
+}
+
+@media(max-wigth: 768px) { /*Design responsivo*/
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
