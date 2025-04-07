@@ -1,0 +1,215 @@
+body {
+    background-color: #ff922d; /*Cor do fundo*/
+}
+
+form { /*Formulário todo*/
+    width: 30%; /*Largura*/
+    margin: 0 auto; /*Move a caixa*/
+    font-family: "Helvetica Neue", "Arial", "Noto Sans", "Sans-serif"; /*Fonte das letras*/
+    background-color: white; /*Cor da caixa do formulário*/
+}
+
+
+
+h2 {
+    text-align: center; /*Alinhamento do título no centro*/
+    color: #ff922d; /*Cor do título*/
+}
+
+h3 {
+    text-align: center; /*Alinhamento do subtítulo no centro*/
+    color: #1e57a4; /*Cor do subtítulo*/
+    margin-top: 3%; /*Seria para mover para baixo*/
+}
+
+
+
+input { /*Formatação dos campos*/
+    border-radius: 1em; /*Bordas arredondadas*/
+    padding: 5px; /*Espaçamento entre o conteúdo e borda*/
+    margin-left: 5%; /*Espaço entre caixa e margem da página*/
+    height: 6%; /*Altura da caixa*/
+    margin-left: 15%; /*Move o button 15% para a esquerda*/
+    width: 28em; /*Largura*/
+}
+
+
+
+#botoes:hover { /*Ativa borda e sombra ao passar o mouse*/
+    border: 1px solid blue; /*Especifica o tipo e a espessura*/
+    box-shadow: 1px 1px 2px silver;
+}
+
+#botoes { /*Posição dos botões*/
+    margin-top: 5%; /*Move os botões 5% para baixo*/
+    text-align: center; /*Alinha o texto no centro*/
+    width: 20em; /*Largura*/
+    height: 2em; /*Altura*/
+    top: 32%; /*Move ambos os button 32% para baixo*/
+    margin-left: 25%; /*Move o button 25% para a esquerda*/
+    background-color: #1e57a4; /*Cor da caixa*/
+    color: white; /*Cor das letras*/
+}
+
+
+
+/*         RESPONSIVE         */
+    /*Computadores*/
+@media (max-width: 1280px) {
+    form {
+        width: 67em; /*Largura*/
+        height: 65em; /*Altura*/
+    }
+
+    h2 {
+        font-size: 350%; /*Tamanho das fontes*/
+    }
+    
+    h3 {
+        font-size: 200%; /*Tamanho das fontes*/
+    }
+    
+    input {
+        margin-left: 8%; /*Move o button 8% para a esquerda*/
+        width: 60em; /*Largura*/
+        height: 2em; /*Altura*/
+        font-size: 95%; /*Tamanho das fontes*/
+    }
+    
+    #botoes {
+        margin-left: 35%; /*Move o button 35% para a esquerda*/
+    }
+}
+
+@media (max-width: 1024px) {
+    form {
+        width: 60em; /*Largura*/
+        height: 75em; /*Altura*/
+    }
+
+    h2 {
+        font-size: 300%; /*Tamanho das fontes*/
+    }
+    
+    h3 {
+        font-size: 200%; /*Tamanho das fontes*/
+    }
+    
+    input {
+        margin-left: 5%; /*Move o button 5% para a esquerda*/
+        width: 55em; /*Largura*/
+        height: 3em; /*Altura*/
+        font-size: 95%; /*Tamanho das fontes*/
+    }
+    
+    #botoes {
+        margin-left: 25%; /*Move o button 25% para a esquerda*/
+        width: 30em; /*Largura*/
+        height: 2em; /*Altura*/
+        font-size: 95%; /*Tamanho das fontes*/
+    }
+}
+
+
+
+    /*Tablets*/
+@media(min-width: 600px) and (max-width: 912px){
+    form {
+        width: 80em; /*Largura __*/
+        height: 100em; /*Altura |*/
+    }
+    
+    h2 {
+        font-size: 400%; /*Tamanho das fontes*/
+    }
+    
+    h3 {
+        font-size: 350%; /*Tamanho das fontes*/
+    }
+    
+    input {
+        margin-left: 16%; /*Move o button 16% para a esquerda*/
+        width: 60em; /*Largura*/
+        height: 5em; /*Altura*/
+        font-size: 95%; /*Tamanho das fontes*/
+    }
+    
+    #botoes {
+        margin-left: 18%; /*Move o button 18% para a esquerda*/
+        width: 20em; /*Largura*/
+        height: 4em; /*Altura*/
+        font-size: 95%; /*Tamanho das fontes*/
+    }
+}
+
+
+
+    /*Celulares*/
+@media(max-width: 450px) {
+    form {
+        width: 22em; /*Largura*/
+        height: 50em; /*Altura*/
+    }
+
+    h2 {
+        font-size: 207%; /*Tamanho das fontes*/
+    }
+
+    h3 {
+        font-size: 112%; /*Tamanho das fontes*/
+    }
+
+    input {
+        margin-left: 5%; /*Move o button 5% para a esquerda*/
+        width: 20em; /*Largura*/
+        height: 2em; /*Altura*/
+    }
+
+    #botoes {
+        margin-left: 16%; /*Move o button 22% para a esquerda*/
+        width: 15em; /*Largura*/
+        height: 3em; /*Altura*/
+    }
+}
+
+@media (min-width: 480px) and (max-width: 540px) {
+    form {
+        width: 25em; /*Largura*/
+        height: 50em; /*Altura*/
+    }
+
+    h2 {
+        font-size: 180%; /*Tamanho das fontes*/
+    }
+
+    h3 {
+        font-size: 100%; /*Tamanho das fontes*/
+    }
+
+    input {
+        margin-left: 10%; /*Move o button 22% para a esquerda*/
+        width: 20em; /*Largura*/
+        height: 2em; /*Altura*/
+    }
+
+    #botoes {
+        margin-left: 22%; /*Move o button 22% para a esquerda*/
+        width: 15em; /*Largura*/
+        height: 2em; /*Altura*/
+        margin-top: 10%; /*Move os botões 10% para baixo*/
+    }
+}
+
+@media(max-width: 360px) {
+    form {
+        width: 21em; /*Largura*/
+    }
+
+    input {
+        margin-left: 3%; /*Move o button 3% para a esquerda*/
+    }
+
+    #botoes {
+        margin-left: 15%; /*Move o button 15% para a esquerda*/
+    }
+}
