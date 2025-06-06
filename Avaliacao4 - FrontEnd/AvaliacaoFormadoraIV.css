@@ -1,0 +1,223 @@
+header {
+    background-color: #5e87f8; /*Cor do fundo*/
+    padding: 2em; /*Espaçamento entre o conteudo e borda*/
+    text-align: center; /*Centraliza os itens*/
+}
+
+
+h2 {
+    font-size: 280%; /*Tamanho do texto*/
+    color: white; /*Cor do texto*/
+    font-family: 'avenir next LT pro light'; /*Fonte do título*/
+}
+
+
+form {
+    width: 35%; /*Largura*/
+    height: 63%; /*Altura*/
+    top: 30%; /*Move a caixa 33% para baixo*/
+    left: 7%; /*Move a caixa 9.5% para a esquerda*/
+    border: 3px double black; /*Bordas para as caixas*/
+    position: absolute; /*Representação do layout da caixa*/
+}
+
+
+.meio-circulo {
+    height: 700px; /*Altura*/
+    margin-left: 50%; /*Move o meio circulo 50% para a esquerda*/
+    border-radius: 200px 0 0 200px; /*Bordas arredondadas*/
+    background-color: #1e57a4; /*Cor do fundo*/
+    overflow: hidden; /*Indica que o conteúdo que ultrapassa o tamanho de um elemento*/
+}
+
+
+.meio-circulo img {
+    width: 100%; /*Largura*/
+    height: 100%; /*Altura*/
+    object-fit: cover; /*Utilizada para especificar como um objeto deve ser redimensionado*/
+}
+
+
+label {
+    font-size: 120%; /*Tamanho do texto*/
+    color: #1e57a4; /*Cor do texto*/
+    font-family: 'Times New Roman', Times, serif; /*Fonte do texto*/
+    font-weight: bold; /*Deixa as palavras em negrito*/
+    margin-left: 3%; /*Move as legendas dos input para a esquerda*/
+}
+
+
+input {
+    border-radius: 3em; /*Bordas arredondadas*/
+    padding: 7px; /*Espaçamento entre o conteúdo e borda*/
+    width: 15em; /*Largura*/
+    height: 5%; /*Altura*/
+    margin-left: 9%; /*Move o button 10% para a esquerda*/
+}
+
+
+select {
+    border-radius: 3em; /*Bordas arredondadas*/
+    padding: 7px; /*Espaçamento entre o conteúdo e borda*/
+    width: 12em; /*Largura*/
+    height: 8%; /*Altura*/
+    font-size: 18px; /*Ajusta o tamanho do texto*/
+    margin-left: 9%; /*Move o button 10% para a esquerda*/
+}
+
+
+#botão:hover {
+    border: 1px solid blue; /*Especifica o tipo e a espessura*/
+    box-shadow: 1px 1px 2px silver; /*Sombra sutil*/
+}
+
+
+#botão {
+    width: 20em; /*Largura*/
+    height: 2em; /*Altura*/
+    margin-left: 30%; /*Move o button 30% para a esquerda*/
+    background-color: #1e57a4; /*Cor da caixa*/
+    color: white; /*Cor das letras*/
+}
+
+
+footer {
+    background-color: #5e87f8; /*Cor do fundo*/
+    color: white; /*Cor do texto*/
+    padding: 20px; /*Espaçamento entre o conteudo e borda*/
+}
+
+
+.integrantes  {
+    text-align: center; /*Alinha o texto no centro*/
+}
+
+
+.lista {
+    list-style-type: none; /*Remove o marcador de lista*/
+    text-align: center; /*Alinha o texto no centro*/
+}
+
+
+
+/*         RESPONSIVE         */
+    /*Computadores*/
+@media (max-width: 1280px) {
+    form {
+        top: 30%; /*Move a caixa 33% para baixo*/
+    }
+
+    .meio-circulo {
+        height: 600px; /*Altura*/
+    }
+}
+
+
+@media (max-width: 1024px) {
+    form {
+        height: 63%; /*Altura*/
+        top: 35%; /*Move a caixa 35% para baixo*/
+    }
+
+    .meio-circulo {
+        margin-top: 5%; /*Move o meio circulo 5% para baixo*/
+    }
+}
+    
+
+    
+/*Tablets*/
+@media(min-width: 600px) and (max-width: 912px){
+    form {
+        width: 40%; /*Largura*/
+        height: 60%; /*Altura*/
+        top: 40%; /*Move a caixa 40% para baixo*/
+    }
+
+    .meio-circulo {
+        margin-top: 10%; /*Move o meio circulo 10% para baixo*/
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 599px) {
+    form {
+        width: 55%; /*Largura*/
+        height: 60%; /*Altura*/
+        top: 41%; /*Move a caixa 41% para baixo*/
+        left: 1%; /*Move a caixa 1% para esquerda*/
+    }
+
+    #botão {
+        margin-left: 10%; /*Move a caixa 10% para esquerda*/
+    }
+}
+
+
+    
+/*Celulares*/
+@media(max-width: 479px) {
+    form {
+        width: 65%; /*Largura*/
+        height: 53%; /*Altura*/
+        top: 44%; /*Move a caixa 44% para baixo*/
+        left: 1%; /*Move a caixa 1% para esquerda*/
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+
+    #botão {
+        margin-left: 15%; /*Move a caixa 15% para esquerda*/
+    }
+}
+
+
+@media(max-width: 430px) {
+    .meio-circulo img {
+        width: 200%; /*Largura*/
+    }
+}
+
+
+@media(max-width: 375px) {
+    form {
+        width: 70%; /*Largura*/
+        height: 63%; /*Altura*/
+        top: 46%; /*Move a caixa 46% para baixo*/
+    }
+
+    .meio-circulo img {
+        width: 220%; /*Largura*/
+    }
+
+    #botão {
+        margin-left: 5%; /*Move a caixa 5% para esquerda*/
+    }
+}
+
+
+@media(max-width: 360px) {
+    form {
+        width: 75%; /*Largura*/
+        height: 60%; /*Altura*/
+        top: 46%; /*Move a caixa 46% para baixo*/
+        left: 2%; /*Move a caixa 2% para esquerda*/
+    }
+
+    #botão {
+        margin-left: 5%; /*Move a caixa 5% para esquerda*/
+    }
+}
+
+
+@media(max-width: 320px) {
+    .meio-circulo {
+        margin-top: 55%; /*Move a caixa 55% para baixo*/
+    }
+}
