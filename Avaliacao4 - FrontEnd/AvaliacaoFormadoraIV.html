@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link rel="stylesheet" href="AvaliacaoFormadoraIV.css">
+</head>
+<body>
+    <header> <h2>CADASTRO DE USUÁRIO</h2> </header>
+    <hr>
+    <br>
+    <form action="#" name="formularioavaliadora">
+        <br>
+        <br>
+        <label>Nome Completo:</label>
+        <br>
+        <input type="text" id="nome" placeholder="Digite...">
+        <br>
+        <br>
+        <label>Data de nascimento:</label>
+        <br>
+        <input type="date" id="data">
+        <br>
+        <br>
+        <label>Sexo:</label>
+        <br>
+        <select id="select">
+            <option value="1">Selecione</option>
+            <option value="2">Feminino</option>
+            <option value="3">Masculino</option>
+            <option value="4">Outro</option>
+        </select>
+        <br>
+        <br>
+        <label>Nome Materno:</label>
+        <br>
+        <input type="text" id="nomeMaterno" placeholder="Digite...">
+        <br>
+        <br>
+        <label>CPF:</label>
+        <br>
+        <input type="text" id="cpf" placeholder="000.000.000-00" oninput="mascaraCPF(this)" maxlength="14">
+        <br>
+        <br>
+    </form>
+    <div class="meio-circulo">
+        <img src="canvain.png" alt="desenho de mulher mexendo no computador">
+    </div>
+    <button type="submit" id="botão" onclick="validarFormulario(event)">CONTINUAR</button>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div>
+            <h3 class="integrantes">Integrantes</h3>
+            <ul class="lista">
+                <li class="nome">Design UX/UI: Larissa Gabriela Lima Dias</li>
+                <li class="nome">Analista e Desenvolvedora de Sistema: Alessandra Cristina da Silva Pereira</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="Validacao.js"></script>
+</body>
+</html>

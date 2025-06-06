@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link rel="stylesheet" href="AvaliacaoFormadoraIV2.css">
+</head>
+<body>
+    <header> <h2>CADASTRO DE USUÁRIO</h2> </header> <!--Aqui vai ter algo como a logo da Unisuam ou apenas a cor laranja-->
+    <hr>
+    <br>
+    <form action="#" name="formularioavaliadoradois">
+        <br>
+        <label>Telefone Celular:</label> 
+        <br>
+        <input type="text" id="celular" placeholder="+00(00)00000-0000" oninput="mascaraCel(this)" maxlength="17">
+        <br>
+        <br>
+        <label>Telefone Fixo:</label>
+        <br>
+        <input type="text" id="telFixo" placeholder="0000-0000" oninput="mascaraTelFixo(this)" maxlength="8">
+        <br>
+        <br>
+        <label>CEP:</label>
+        <br>
+        <input type="text" id="cep" placeholder="00000-000" oninput="formatarCEP(this)">  <button type="button" id="buscar">Buscar</button>
+        <br>
+        <input type="text"  placeholder="Endereço:" size="50"  id="endereco" readonly>
+        <br>
+        <br>
+        <label>Login:</label>
+        <br>
+        <input type="text" id="login" placeholder="Crie seu login:" maxlength="5" onclick="validarLogin()">
+        <br>
+        <br>
+        <label>Senha:</label>
+        <br>
+        <input type="password" id="senha" placeholder="Crie sua senha:" maxlength="7">
+        <br>
+        <br>
+        <label>Confirma senha:</label>
+        <br>
+        <input type="password" id="confirmasenha" placeholder="Confirme senha:" maxlength="7">
+        <br>
+        <br>
+    </form>
+    <div class="meio-circulo">
+        <img src="canvain.png" alt="desenho de mulher mexendo no computador">
+    </div>
+    <button type="button" id="botoes"><a href="AvaliacaoFormadoraIV.html">VOLTAR</a></button>
+    <button type="submit" id="botoes" onclick="validarFormu()">ENVIAR</button>
+    <button type="reset" id="botoes">LIMPAR</button>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div>
+            <h3 class="integrantes">Integrantes</h3>
+            <ul class="lista">
+                <li class="nome">Design UX/UI: Larissa Gabriela Lima Dias</li>
+                <li class="nome">Analista e Desenvolvedora de Sistema: Alessandra Cristina da Silva Pereira</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="Validacao.js"></script>
+</body>
+</html>
